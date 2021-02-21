@@ -26,6 +26,7 @@ import logoMercuryFund from '../static/img/logos/logo-mercuryfund.png';
 import logoMightyAI from '../static/img/logos/logo-mightyai.svg';
 import logoMVCA from '../static/img/logos/logo-mvca.png';
 import logoMySwimPro from '../static/img/logos/logo-myswimpro.png';
+import logoNeon from '../static/img/logos/logo-neon.png'
 import logoNextEnergy from '../static/img/logos/logo-nextenergy.png';
 import logoOptimize from '../static/img/logos/logo-optimize.png';
 import logoPlanetM from '../static/img/logos/logo-planetm.jpg';
@@ -252,6 +253,13 @@ export const ORGANIZATIONS = [
     location: "Detroit, MI",
     website: "http://myswimpro.com",
     name: "MySwimPro",
+    type: ORG_TYPES.STARTUP,
+  },
+  {
+    logo: logoNeon,
+    location: "Detroit, MI",
+    website: "https://teamneon.io",
+    name: "Neon",
     type: ORG_TYPES.STARTUP,
   },
   {
